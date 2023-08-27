@@ -1,4 +1,4 @@
-import { GithubAvatar } from 'nodejs-ui';
+import { GithubAvatar } from 'nodejs-design-system';
 import type { FC } from 'react';
 
 const Page: FC = () => (

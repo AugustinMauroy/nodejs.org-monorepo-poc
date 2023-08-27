@@ -10,7 +10,7 @@ npm-debug.log
 .LSOverride
 
 # typescript
-*/dist
+dist
 
 # next.js
-*/.next
+.next

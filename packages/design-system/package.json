@@ -1,10 +1,10 @@
 {
-  "name": "nodejs-ui",
-  "description": "NodeJS Desing System",
+  "name": "nodejs-design-system",
+  "description": "NodeJS Design System",
   "version": "1.0.0",
-  "main": "build/lib/cjs/client.js",
-  "module": "build/lib/esm/client.js",
-  "types": "build/lib/esm/client.d.ts",
+  "main": "dist/cjs/client.js",
+  "module": "dist/esm/client.js",
+  "types": "dist/esm/client.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.comonojs.json && tsc -p tsconfig.json"
   },
