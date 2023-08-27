@@ -1,0 +1,8 @@
+{
+  "name": "nodejs.org-monorepo-poc",
+  "description": "Monorepo POC for nodejs.org",
+  "workspaces": [
+    "ui",
+    "web"
+  ]
+}

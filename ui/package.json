@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-ui",
+  "description": "NodeJS Desing System",
+  "version": "1.0.0",
+  "main": "build/lib/cjs/client.js",
+  "module": "build/lib/esm/client.js",
+  "types": "build/lib/esm/client.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.comonojs.json && tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "react": "^18",
+    "react-dom": "^18",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
