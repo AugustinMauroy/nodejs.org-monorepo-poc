@@ -1,7 +1,9 @@
 {
-  "name": "nodejs-design-system",
+  "name": "@nodejs/ui-components",
   "description": "NodeJS Design System",
   "version": "1.0.0",
+  "author": "AugustinMauroy",
+  "license": "MIT",
   "main": "dist/cjs/client.js",
   "module": "dist/esm/client.js",
   "types": "dist/esm/client.d.ts",

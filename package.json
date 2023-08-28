@@ -1,6 +1,8 @@
 {
   "name": "nodejs.org-monorepo-poc",
   "description": "Monorepo POC for nodejs.org",
+  "author": "AugustinMauroy",
+  "license": "MIT",
   "workspaces": [
     "packages/*",
     "apps/*"
