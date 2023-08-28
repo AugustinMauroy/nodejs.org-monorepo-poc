@@ -2,5 +2,14 @@
   "name": "@nodejs/i18n",
   "version": "1.0.0",
   "author": "AugustinMauroy",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.comonojs.json && tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
