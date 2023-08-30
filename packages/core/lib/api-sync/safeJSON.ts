@@ -1,3 +1,4 @@
+// @ts-nocheck
 function safeJSONParse(input) {
     try {
       return JSON.parse(input);

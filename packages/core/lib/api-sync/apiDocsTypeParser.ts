@@ -1,3 +1,4 @@
+// @ts-nocheck
 const jsDocPrefix = 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/';
 const jsDataStructuresUrl = `${jsDocPrefix}Data_structures`;
 const jsPrimitives = {

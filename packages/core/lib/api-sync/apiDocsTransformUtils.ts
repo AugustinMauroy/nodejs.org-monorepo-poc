@@ -1,7 +1,8 @@
+// @ts-nocheck
 import yaml from 'yaml';
-import safeJSON from './safeJSON.mjs';
-import createSlug from './createSlug.mjs';
-import typeParser from './apiDocsTypeParser.mjs';
+import safeJSON from './safeJSON';
+import createSlug from './createSlug';
+import typeParser from './apiDocsTypeParser';
 
 const CODE_BLOCK = {
   openingTag: '```',

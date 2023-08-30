@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# build next.js app
+
+next build

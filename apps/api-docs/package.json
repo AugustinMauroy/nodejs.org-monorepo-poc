@@ -4,10 +4,14 @@
     "author": "AugustinMauroy",
     "license": "MIT",
     "scripts": {
-      "dev": "next dev",
+      "dev": "DOCS_VERSIONS=v18.x next dev",
       "build": "next build",
       "start": "next start",
       "lint": "next lint"
+    },
+    "dist": {
+      "nodejs-doc-dev": "./scripts/build",
+      "nodejs-dev": "./scripts/dev"
     },
     "dependencies": {
       "@nodejs/core": "^1.0.0",

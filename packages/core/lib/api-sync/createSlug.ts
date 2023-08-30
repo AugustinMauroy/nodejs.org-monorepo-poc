@@ -1,4 +1,4 @@
-function createSlug(title) {
+function createSlug(title: string) {
     let slug = title.toLowerCase().trim();
   
     const sets = [
