@@ -1,0 +1,15 @@
+{
+  "name": "@nodejs/core",
+  "version": "1.0.0",
+  "author": "AugustinMauroy",
+  "license": "MIT",
+  "main": "dist/cjs/",
+  "module": "dist/esm/",
+  "types": "dist/esm/",
+  "scripts": {
+    "build": "tsc -p tsconfig.comonojs.json && tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

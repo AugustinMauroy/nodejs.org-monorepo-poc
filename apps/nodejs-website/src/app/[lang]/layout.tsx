@@ -1,27 +1,22 @@
 import { Metadata } from "next";
-import { FC, PropsWithChildren } from "react";
+import type { I18nParams } from "@/types/params";
+import type { FC, PropsWithChildren } from "react";
 
 export const metadata: Metadata = {
   title: 'Nodejs',
   description: 'Run JavaScript everywhere',
 }
 
-type Params = {
-  lang: string;
-};
-
 type LayoutProps = PropsWithChildren<{
-  params: Params;
+  params: I18nParams;
 }>;
 
-// @TODO: add generateStaticParams to exlude unsupported params
-
 const Layout: FC<LayoutProps> = ({ children, params }) => (
-    <html lang={params.lang}>
-      <body>
-        {children}
-      </body>
-    </html>
+  <html lang={params.lang}>
+    <body>
+      {children}
+    </body>
+  </html>
 );
 
 export default Layout;
