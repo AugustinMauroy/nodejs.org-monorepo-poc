@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@nodevu/core": "^0.1.0"
   }
 }
