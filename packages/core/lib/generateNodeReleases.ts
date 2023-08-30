@@ -1,4 +1,5 @@
 // @ts-nocheck
+// @TODO: type this file
 import nodevu from '@nodevu/core';
 
 const generateNodeReleasesJson = async () => {
