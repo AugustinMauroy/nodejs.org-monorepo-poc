@@ -3,6 +3,7 @@ import path from 'node:path';
 import { compileMDX } from 'next-mdx-remote/rsc'
 import createMarkdownParser from '@nodejs/core/dist/esm/lib/api-sync/apiDocsTransformUtils';
 import { getContentBySlug } from '@nodejs/core/lib/contentManager';
+import { ApiMdxComponents } from '@nodejs/ui-components/dist/esm/server'
 import type { FC } from 'react';
 import type { ApiDocsParams } from '@/types/params';
 
@@ -45,8 +46,10 @@ const Page: FC<PageProps> = async ({ params }) => {
         }
     );
 
+    console.log(await parseMarkdown())
     const { content } = await compileMDX({
         source: await parseMarkdown(),
+        components: ApiMdxComponents,
         options: {
             parseFrontmatter: true,
         }
